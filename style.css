@@ -18,11 +18,16 @@ nav a {
 }
 
 .hero {
-    text-align: center;
-    padding: 100px;
-    background: lightgray;
+    background: url('images/hero.jpg') center/cover;
+    color: white;
+    padding: 120px;
 }
 
+.about {
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+}
 button {
     padding: 10px 20px;
     background: black;
@@ -35,9 +40,41 @@ button {
     text-align: center;
 }
 
+
+.contact {
+    padding: 60px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
 footer {
     background: black;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 15px;
 }
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 90%;
+    }
+
+    .hero {
+        padding: 60px;
+    }
+}
+
+
