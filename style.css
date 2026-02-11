@@ -23,6 +23,12 @@ nav a {
     background: lightgray;
 }
 
+.about {
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
 button {
     padding: 10px 20px;
     background: black;
